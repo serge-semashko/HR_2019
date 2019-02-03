@@ -1,6 +1,12 @@
+/sed/nbproject/private/
+/hrlhep/dist/
+/walt/build/
+/walt/dist/
+ADB*.*
+*.exe
+HR_LOG*.*
 # Compiled class file
 *.class
-
 # Log file
 *.log
 
@@ -22,6 +28,7 @@ ADB*.*
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /hrlhep/dist/
+/hrlhep/build/
 /walt/build/
 /walt/dist/
 *.exe
