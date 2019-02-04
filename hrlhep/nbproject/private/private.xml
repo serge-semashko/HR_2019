@@ -11,6 +11,8 @@
             <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/grade/scale_header.cfg</file>
         </group>
         <group/>
-        <group name="HRLHEP"/>
+        <group name="HRLHEP">
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
+        </group>
     </open-files>
 </project-private>
