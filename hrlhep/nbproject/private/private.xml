@@ -12,28 +12,13 @@
         </group>
         <group/>
         <group name="HRLHEP">
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftelit_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_iss_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/ftelit.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/main_js_noDB.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_personal.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftelit.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/fte_v1.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/dat/common.dat</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/samples/js_sample.mod.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/js_tabs.dat</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_personal_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/grade/scale_header.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/js_tabs.old</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/src/java/hrlhep.properties</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/oauth_check_user.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/main_js_noDB.old</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/personal_XL.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftelit.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftelit_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/fill_otdel.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/JS/personal_parameters.js</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
         </group>
     </open-files>
 </project-private>

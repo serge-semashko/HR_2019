@@ -29,7 +29,7 @@ function getFio(fullFIO)
     return shortFIO
 }
 function loopSQL(sqlSection, execSection) {
-    _$LOG(2, "loopSQL sqlSection = " + sqlSection + " execSection" + execSection + "\n", sectionLines, out);
+    _$LOG(2, "loopSQL sqlSection = " + sqlSection + " execSection" + execSection + "\n");
     var sql = BT.getCustomSectionAsString(sqlSection);
     if (sql.length === 0) {
 //        BT.WriteLog(2, "<font color=red> loopSQL:" + sqlSection + ": SECTION NOT FOUND OR EMPTY</font>");
@@ -60,16 +60,20 @@ function loopSQL(sqlSection, execSection) {
 function prm(name) {
     return BT.getParameter(null, null, name);
 }
-// Ecnfyfdkbdftn   параметр  по имени namr
+// Устанавливает   параметр  по имени namr
 function setPrm(name, val) {
-    return BT.addParameter(name, val);
+    BT.addParameter(name, val);
+}
+function setSessPrm(name, val) {
+    
+    BT._$SET_PARAMETERS("$SET_PARAMETERS_SESSION " + name+"="+val, null, out, "setsession param");
 }
 // исполняется аналогично $INCLUDE 
 function _$INCLUDE(sectionName) {
     BT._$INCLUDE("$INCLUDE " + sectionName, sectionLines, out, sectionName);
 }
 function _$GET_DATA(sectionName) {
-    BT._$GET_DATA("$GET_DATA " + sectionName, sectionLines, out);
+    BT._$GET_DATA("$GET_DATA " + sectionName, sectionLines, out, sectionName);
 }
 
 function _$LOG(lvl, msg) {
@@ -77,6 +81,42 @@ function _$LOG(lvl, msg) {
 }
 var wf_ver=""; 
 //var wf_ver="_v2";
+//        var personal_parameters ={};
+//        function parsePersonalParameters(){
+//            personal_parameters = prm('personal_parameters');
+//            _$LOG(2,'<br>var personal parameters = '+personal_parameters+'<br>');
+//            if( ( typeof personal_parameters === 'undefined') || (personal_parameters.length==0) ){
+//                personal_parameters = '{}'  ;
+//            }
+//            personal_parameters = JSON.parse(personal_parameters);
+//            _$LOG(2,'JSON personal parameters='+JSON.stringify(personal_parameters)+'<br>');
+//            for (var el in personal_parameters){
+//                var name = el;  
+//                var value = JSON.stringify(personal_parameters[el]);
+//                value=value.substr(1,value.length-2);
+//                setSessPrm(name,value);
+//                _$LOG(2,'pers param['+name+'] = '+value+'<br>');
+//            }    
+//       }
+       
+       
+       
+       
+       
+       
+//       parsePersonalParameters();
+//       function setPersonalParameter(paramName){
+//            var prmval = prm(paramName);
+//             _$LOG(2,'personal parameter name = '+paramName+" value=" +prmval+'<br>');
+//            if ((typeof prmval === 'undefined') || (prmval.length==0)){
+//               prmval = '';
+//            } 
+//             _$LOG(2,'personal parameter name = '+paramName+" value=" +prmval+'<br>');
+//            personal_parameters[paramName]=prmval;
+//            setSessPrm('personal_parameters',JSON.stringify(personal_parameters));
+//             _$LOG(2,'personal parametrers = '+JSON.stringify(personal_parameters)+'<br>');
+//            
+//       }
 
 
 

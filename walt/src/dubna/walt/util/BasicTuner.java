@@ -981,7 +981,7 @@ public class BasicTuner {
                         if ((paramName.length() > 0) && (paramName.charAt(0) == ':')) {
                             InitScriptEngine();
                             String tmpvar = "var tmp_for_parameter = " + paramName.substring(1) + ";";
-                            JS_Execute(tmpvar, null, BTout);
+                            JS_Execute(tmpvar, null, BTout,"param");
                             Object res = engine_JS.get("tmp_for_parameter");
                             String test = "";
                             if (res != null) {
@@ -998,7 +998,7 @@ public class BasicTuner {
                         InitScriptEngine();
                         String tmpvar = "var tmp_for_parameter = " + paramName.substring(1) + ";";
                         rm.println("========== JS parameter:" + paramName.substring(1) + "\n");
-                        JS_Execute(tmpvar, null, BTout);
+                        JS_Execute(tmpvar, null, BTout,"param");
                         rm.println("========== JS eval parameter:" + paramName.substring(1) + "\n");
                         Object res = engine_JS.get("tmp_for_parameter");
                         String test = "";
@@ -1579,7 +1579,7 @@ public class BasicTuner {
                         builder.append(current);
                     }
                     jScript = builder.toString();
-                    JS_Execute(jScript, sectionLines, out);
+                    JS_Execute(jScript, sectionLines, out,sectionName);
 //                rm.println("========== JS_Execute file :" + fname);
                 } catch (Exception ex) {
                     IOUtil.writeLogLn(5, "<font color=red>" + fname + ": JavaScript file NOT FOUND </font>", rm);
@@ -2047,9 +2047,14 @@ public class BasicTuner {
      * @param out - для заполнения переменных в контекст выполнения скрипта в функции InitScriptEngine
      *
      */
-    public void JS_Execute(String jScript, Vector sectionLines, PrintWriter out) {
+    public void JS_Execute(String jScript, Vector sectionLines, PrintWriter out, String sectionName) {
         InitScriptEngine();
+        WriteLog(2, "secline="+sectionLines+" secname="+sectionName);
+        System.out.println( "secline="+sectionLines+" secname="+sectionName);
+        
         engine_JS.put("sectionLines", sectionLines);
+        engine_JS.put("sectionName", sectionName);
+        
         try {
             engine_JS.eval(jScript);
         } catch (ScriptException e) {
@@ -2105,7 +2110,7 @@ public class BasicTuner {
         IOUtil.writeLogLn(5, "<font color=green>$JS " + js + "</font>", rm);
 
         try {
-            JS_Execute(js, sectionLines, out);
+            JS_Execute(js, sectionLines, out,sectionName);
         } catch (Exception e) {
             e.printStackTrace();
             String msg = e.toString().replaceAll("'", "`");
@@ -2161,6 +2166,7 @@ public class BasicTuner {
      */
     public void InitScriptEngine() {
         engine_JS.put("out", rm.getObject("outWriter", false));
+        
         if (engine_JS.get("prm") != null) {
             return;
         }
@@ -2236,7 +2242,7 @@ public class BasicTuner {
         }
 //        IOUtil.writeLogLn(2, "<font color=green>JAVASCRIPT BLOCK: <br>" + js.replace("\r", "<br>") + "</font>", rm);
         try {
-            JS_Execute(js, sectionLines, out);
+            JS_Execute(js, sectionLines, out, sectionName);
         } catch (Exception e) {
             e.printStackTrace();
             String msg = e.toString().replaceAll("'", "`");
