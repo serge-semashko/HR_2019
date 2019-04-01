@@ -30,7 +30,7 @@ var setTabsClicks=function(tabDivId, act)
 		beforeActivate: function( ev, ui ) 
 	{
     var old_cont = atab.replace("t_", "c_");
-		console.log(old_cont + " / " + atab + " => " + ui.newTab[0]["id"]); 
+   console.log(old_cont + " / " + atab + " => " + ui.newTab[0]["id"]); 
       if(tabDivId !== "info_tabs") 
         $(".cont").html(""); //очистить все табы, если работаем не с под-табами (справочник)
       try { document.theForm.srt.value=""; } catch (e) {;}
