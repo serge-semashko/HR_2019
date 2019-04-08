@@ -13,7 +13,11 @@
         <group/>
         <group name="HRLHEP">
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/src/java/jinr/hrlhep/UserValidator.java</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/jubilee_XL.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/gateway/jinr_setDivParents.cfg</file>
         </group>
     </open-files>
 </project-private>
