@@ -3,7 +3,7 @@
 [head]
 <HTML><HEAD><TITLE>#title#</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
-<link rel="stylesheet" href="#jsPath#jquery-ui-1.10.1.css" />
+<link rel="stylesheet" href="#jsPath#jquery-ui-1.10.1.css" /> 
 <link rel="stylesheet" href="#jsPath#default/style.min.css" />
 <script type="text/javascript" src="#jsPath#jquery-1.11.0.min.js"></script>
 <script src="#jsPath#jquery-ui-1.10.1.min.js" type="text/javascript"></script>
@@ -16,8 +16,10 @@
 
  <script src="#jsPath#main.js"></script>
  <script src="#jsPath#data.js"></script>
- <script src="#jsPath#jquery.fixedheadertable.min.js"></script>
-
+ <script src="#jsPath#jquery.fixedheadertable.min.js"></script> 
+ <link  href="#jsPath#960.css" rel="stylesheet" media="screen" /> 
+ <link  href="#jsPath#defaultTheme.css" rel="stylesheet" media="screen" />
+ <link  href="#jsPath#myTheme.css" rel="stylesheet" media="screen" />
  <script src="#jsPath#amcharts/amcharts.js"></script>
  <script src="#jsPath#amcharts/pie.js"></script>
  <script src="#jsPath#amcharts.js"></script> ??
