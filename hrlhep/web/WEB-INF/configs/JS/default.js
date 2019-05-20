@@ -64,6 +64,9 @@ function prm(name) {
 function setPrm(name, val) {
     BT.addParameter(name, val);
 }
+function prmSet(name, val) {
+    BT.addParameter(name, val);
+}
 function setSessPrm(name, val) {
     
     BT._$SET_PARAMETERS("$SET_PARAMETERS_SESSION " + name+"="+val, null, out, "setsession param");

@@ -334,6 +334,7 @@ public class BasicTuner {
                 int iStart = i;
                 for (i++; i < source.length; i++) {
                     line = (source[i].trim());
+                    line = checkConditionAndParse(line);
                     if (line.indexOf("[END]") == 0) {
                         break;
                     };
@@ -359,6 +360,7 @@ public class BasicTuner {
                     int iStart = i;
                     for (i++; i < source.length; i++) {
                         line = (source[i].trim());
+                        line = checkConditionAndParse(line);
                         if (line.startsWith("$ELSE")) {
                             logExecutedLine(line, out, sectionName);
                             break;
@@ -375,7 +377,7 @@ public class BasicTuner {
                             break;
                         };
                     }
-                    IOUtil.writeLogLn(2, "<font color=green>$IF state FALSE. skip  " + (i - 1 - iStart) + " lines</font>", rm);
+                    IOUtil.writeLogLn(2, "<font color=green>" + line + " state=FALSE. skip  " + (i - 1 - iStart) + " lines</font>", rm);
                 }
 
                 continue;
@@ -450,7 +452,7 @@ public class BasicTuner {
                     fn += ".mod";
                 }
                 if (!IOUtil.fileExists(cfgRootPath + fn)) {
-                    ((Logger) rm.getObject("logger")).logRequest2DB(rm, "FILE NOT FOUND(d): " + fname, null);
+                    ((Logger) rm.getObject("logger")).logRequest2DB(rm, "FILE NOT FOUND(d): " + fname + "; requestType=" + requestType + "; securityMode=" + securityMode, null);
                 }
             } else {
                 if (!fn.contains(".")) {
@@ -981,7 +983,7 @@ public class BasicTuner {
                         if ((paramName.length() > 0) && (paramName.charAt(0) == ':')) {
                             InitScriptEngine();
                             String tmpvar = "var tmp_for_parameter = " + paramName.substring(1) + ";";
-                            JS_Execute(tmpvar, null, BTout,"param");
+                            JS_Execute(tmpvar, null, BTout);
                             Object res = engine_JS.get("tmp_for_parameter");
                             String test = "";
                             if (res != null) {
@@ -998,7 +1000,7 @@ public class BasicTuner {
                         InitScriptEngine();
                         String tmpvar = "var tmp_for_parameter = " + paramName.substring(1) + ";";
                         rm.println("========== JS parameter:" + paramName.substring(1) + "\n");
-                        JS_Execute(tmpvar, null, BTout,"param");
+                        JS_Execute(tmpvar, null, BTout);
                         rm.println("========== JS eval parameter:" + paramName.substring(1) + "\n");
                         Object res = engine_JS.get("tmp_for_parameter");
                         String test = "";
@@ -1267,7 +1269,7 @@ public class BasicTuner {
         return getParameterValue(sectionBody, parameterName, true);
     }
 
-    private String getParameterValue(String[] sectionBody, String parameterName, boolean parseOptions) {
+    protected String getParameterValue(String[] sectionBody, String parameterName, boolean parseOptions) {
         if (sectionBody == null
                 || parameterName == null
                 || parameterName.length() == 0) {
@@ -1579,7 +1581,7 @@ public class BasicTuner {
                         builder.append(current);
                     }
                     jScript = builder.toString();
-                    JS_Execute(jScript, sectionLines, out,sectionName);
+                    JS_Execute(jScript, sectionLines, out);
 //                rm.println("========== JS_Execute file :" + fname);
                 } catch (Exception ex) {
                     IOUtil.writeLogLn(5, "<font color=red>" + fname + ": JavaScript file NOT FOUND </font>", rm);
@@ -1646,7 +1648,7 @@ public class BasicTuner {
             while ((inputLine = in.readLine()) != null) {
                 IOUtil.writeLogLn(5, ln++ + ": '" + inputLine + "';", rm);
                 sectionLines.addElement(inputLine);
-                url_responce += inputLine + "\n\r";
+                url_responce += inputLine + "\r\n";
             }
             in.close();
             if (url_responce_param.length() > 0) {
@@ -2047,14 +2049,9 @@ public class BasicTuner {
      * @param out - для заполнения переменных в контекст выполнения скрипта в функции InitScriptEngine
      *
      */
-    public void JS_Execute(String jScript, Vector sectionLines, PrintWriter out, String sectionName) {
+    public void JS_Execute(String jScript, Vector sectionLines, PrintWriter out) {
         InitScriptEngine();
-        WriteLog(2, "secline="+sectionLines+" secname="+sectionName);
-        System.out.println( "secline="+sectionLines+" secname="+sectionName);
-        
         engine_JS.put("sectionLines", sectionLines);
-        engine_JS.put("sectionName", sectionName);
-        
         try {
             engine_JS.eval(jScript);
         } catch (ScriptException e) {
@@ -2110,7 +2107,7 @@ public class BasicTuner {
         IOUtil.writeLogLn(5, "<font color=green>$JS " + js + "</font>", rm);
 
         try {
-            JS_Execute(js, sectionLines, out,sectionName);
+            JS_Execute(js, sectionLines, out);
         } catch (Exception e) {
             e.printStackTrace();
             String msg = e.toString().replaceAll("'", "`");
@@ -2166,7 +2163,6 @@ public class BasicTuner {
      */
     public void InitScriptEngine() {
         engine_JS.put("out", rm.getObject("outWriter", false));
-        
         if (engine_JS.get("prm") != null) {
             return;
         }
@@ -2228,10 +2224,17 @@ public class BasicTuner {
     }
 
     private int _$JS_BLOCK(String[] source, int i, String line, Vector sectionLines, PrintWriter out, String sectionName) {
+        boolean parseJS = true;
+        if (line.toUpperCase().indexOf("NOPARSE")>-1){
+            parseJS = false;
+        }
         logExecutedLine(line, out, sectionName);
         String js = "";
         for (i++; i < source.length; i++) {
             line = (source[i].trim());
+            if (parseJS){
+                line = checkConditionAndParse(line);
+            }
             if ((line.indexOf("$JS_END") == 0) || (line.indexOf("$JS_}") == 0) || (line.indexOf("$JS}") == 0)) {
                 break;
             };
@@ -2242,7 +2245,7 @@ public class BasicTuner {
         }
 //        IOUtil.writeLogLn(2, "<font color=green>JAVASCRIPT BLOCK: <br>" + js.replace("\r", "<br>") + "</font>", rm);
         try {
-            JS_Execute(js, sectionLines, out, sectionName);
+            JS_Execute(js, sectionLines, out);
         } catch (Exception e) {
             e.printStackTrace();
             String msg = e.toString().replaceAll("'", "`");
@@ -2267,9 +2270,28 @@ public class BasicTuner {
             outline = outline.replace("<", "&lt;");
             outline = outline.replace(">", "&gt;");
 //            WriteLog(3, "Exec[" + sectionName + "]" + outline + "<br>");
-            WriteLog(3, "<font color=darkblue>Exec" + outline + "</font><br>");
+            WriteLog(5, "<font color=darkblue>Exec" + outline + "</font><br>");
 
         }
+    }
+
+    String checkConditionAndParse(String result) {
+        int optIndex;
+        if ((optIndex = result.indexOf("??")) > 0) // check if the option enabled
+        {
+//			rm.println("result:" + result);
+//			rm.println(result.substring(optIndex + 2).trim());
+//			rm.println(" enabled:" + enabledExpression(result.substring(optIndex + 2).trim()));
+            if (enabledExpression(result.substring(optIndex + 2).trim())) {
+                result = result.substring(0, optIndex).trim();
+            } else {
+                result = "";    // ignore line, if the option disabled
+            }
+        }
+        if (result.length()>0){
+            result = parseString(result);
+        }
+        return result;
     }
 
 }
