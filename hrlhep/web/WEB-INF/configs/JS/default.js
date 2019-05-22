@@ -1,4 +1,21 @@
 // Заполняет массив sqlColNames названиями столбцов в выборке
+function getMonthName(month) { 
+    return ["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь", "Октябрь","Ноябрь","Декабрь"][parseInt(month)-1]
+}
+//    return ["January","February","March","April","May","June","July","August","September", "October","November","December"][parseInt(month)-1]
+function monthKvartal(month){
+    month =+ month;
+    switch (month) {
+        case 101:return 'I Квартал';
+        case 102:return 'II Квартал';
+        case 103:return 'III Квартал';
+        case 104:return 'IV Квартал';
+    }
+    if ((month>0)&(month<13) ) {
+       return  getMonthName(month);
+   }
+   return 'Ошибка даты';
+}
 function getColNames(resultSet) {
     var metaData = resultSet.getMetaData();
     var numCols = metaData.getColumnCount();
