@@ -12,13 +12,15 @@
         </group>
         <group/>
         <group name="HRLHEP">
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_bonus_all_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftelit_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/jubilee_XL.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/gateway/jinr_setDivParents.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/gateway/receive_7_sotrudnik.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/fte_v1.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_premii_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/premiya.cfg</file>
         </group>
     </open-files>
 </project-private>
