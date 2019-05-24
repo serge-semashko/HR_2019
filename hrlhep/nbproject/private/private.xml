@@ -23,12 +23,7 @@
         </group>
         <group>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_premii_table.cfg</file>
-            <file>file:/D:/home/hr_2019/hrlhep/src/java/jinr/hrlhep/QueryThread.java</file>
-            <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_premii.cfg</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_all_table.cfg</file>
-            <file>file:/D:/home/hr_2019/hrlhep/src/java/jinr/hrlhep/Servlet.java</file>
-            <file>file:/D:/home/hr_2019/hrlhep/src/java/hrlhep.properties</file>
-            <file>file:/D:/home/hr_2019/hrlhep/src/java/jinr/hrlhep/ServiceMimeData.java</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
         </group>
