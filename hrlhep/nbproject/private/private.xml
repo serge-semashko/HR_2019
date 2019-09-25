@@ -10,26 +10,23 @@
             <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/grade/test.js</file>
             <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/grade/scale_header.cfg</file>
         </group>
-        <group name="HRLHEP">
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_bonus_all_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/gateway/receive_7_sotrudnik.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/fte_v1.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_premii_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/premiya.cfg</file>
-        </group>
         <group>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_premii_table.cfg</file>
-            <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/grade/test.js</file>
-            <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_all.cfg</file>
-            <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
+            <file>file:/D:/home/hr_2019/hrlhep/src/java/jinr/hrlhep/QueryThread.java</file>
+            <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_premii.cfg</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_all_table.cfg</file>
-            <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
+            <file>file:/D:/home/hr_2019/hrlhep/src/java/jinr/hrlhep/Servlet.java</file>
+            <file>file:/D:/home/hr_2019/hrlhep/src/java/hrlhep.properties</file>
+            <file>file:/D:/home/hr_2019/hrlhep/src/java/jinr/hrlhep/ServiceMimeData.java</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
+        </group>
+        <group name="HRLHEP">
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_divtable.cfg</file>
         </group>
     </open-files>
 </project-private>
