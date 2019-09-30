@@ -23,7 +23,6 @@
         </group>
         <group name="HRLHEP">
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_divtable.cfg</file>
