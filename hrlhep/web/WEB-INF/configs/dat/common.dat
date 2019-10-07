@@ -217,3 +217,26 @@ selected ??rpp=9999
 </SELECT> &nbsp; &nbsp; &nbsp; Строки: #rowLinks# |
 [end]
 
+[rpp by 1] param: execute;
+<font color=white> ??
+Строк на странице:
+<SELECT NAME="rpp" class=small onChange="#execute#; goToRow(1);">
+<OPTION value="1"
+selected ??rpp=1
+>1
+<OPTION value="2"
+selected ??rpp=2
+>2
+<OPTION value="5"
+selected ??rpp=5
+>5 
+<OPTION value="10"
+selected ??rpp=10
+>10
+<OPTION VALUE="9999"
+selected ??rpp=9999
+> не огр.  
+ ??user_group=sys
+</SELECT> &nbsp; &nbsp; &nbsp; Строки: #rowLinks# |
+[end]
+
