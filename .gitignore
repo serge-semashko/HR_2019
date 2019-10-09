@@ -18,6 +18,7 @@ HR_LOG*.*
 
 # Package Files #
 ADB*.*
+*.properties
 *.war
 *.nar
 *.ear
