@@ -24,8 +24,16 @@
         <group name="HRLHEP">
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftediv.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/fill_sector.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_divtable.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/js_tabs.dat</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/fill_otdel.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/main_js_noDB.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftediv_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_personal_table.cfg</file>
         </group>
     </open-files>
 </project-private>
