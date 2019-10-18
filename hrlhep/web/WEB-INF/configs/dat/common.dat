@@ -196,25 +196,27 @@ nextSetLink=| <a class=page href="javascript:#execute#; goToRow(#srn_i#);"> сл
 [end]
 
 [rpp] param: execute;
-<font color=white> ??
-Строк на странице:
-<SELECT NAME="rpp" class=small onChange="#execute#; goToRow(1);">
-<OPTION value="10"
-selected ??rpp=10
->10
-<OPTION value="20"
-selected ??rpp=20
->20
-<OPTION value="50"
-selected ??rpp=50
->50 
-<OPTION value="100"
-selected ??rpp=100
->100<OPTION VALUE="9999"
-selected ??rpp=9999
-> не огр.  
- ??user_group=sys
-</SELECT> &nbsp; &nbsp; &nbsp; Строки: #rowLinks# |
+$IF !NumTableRows=0&!XL=Y
+    <font color=white> ??
+    Строк на странице:
+    <SELECT NAME="rpp" class=small onChange="#execute#; goToRow(1);">
+    <OPTION value="10"
+    selected ??rpp=10
+    >10
+    <OPTION value="20"
+    selected ??rpp=20
+    >20
+    <OPTION value="50"
+    selected ??rpp=50
+    >50 
+    <OPTION value="100"
+    selected ??rpp=100
+    >100<OPTION VALUE="9999"
+    selected ??rpp=9999
+    > не огр.  
+     ??user_group=sys
+    </SELECT> &nbsp; &nbsp; &nbsp; Строки: #rowLinks# |
+$EIF
 [end]
 
 [rpp by 1] param: execute;
