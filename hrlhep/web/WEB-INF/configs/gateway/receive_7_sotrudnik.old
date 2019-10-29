@@ -99,7 +99,7 @@ LOG=ON
 [end]
 
 [create record sotr] ******  добавление если нет
-    replace  #table# (tab_n,guid, person_id, F, I, O, changed) values(#ТабельныйНомер#,'#SrcObjectID#', #ФизЛицоКод#, '#F#','#I#','#O#', now()) 
+    replace  #table# (tab_n, person_id, F, I, O, changed) values(#ТабельныйНомер#, #ФизЛицоКод#, '#F#','#I#','#O#', now()) 
 [end]
 
 [обновляется из исс  create record oklad] ******  добавление если нет
@@ -128,7 +128,6 @@ LOG=ON
      , div_code=#ПодразделениеКод#, division='#ПодразделениеНаименование#', post='#ДолжностьНаименование#', usl_rab='#УсловияРаботыНаименование#'
      , FIO='#ФИО#'
      , changed=now()
-     , guid = '#SrcObjectID#'
      , stepen  ??
      , grafik_raboti = '#ГрафикРаботы#' ??ГрафикРаботы
      , DataUvolen = STR_TO_DATE('#ДатаУвольнения#', '%d.%m.%Y %H:%i:%s') ??ДатаУвольнения
