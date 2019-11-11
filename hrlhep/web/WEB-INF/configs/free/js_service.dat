@@ -13,6 +13,7 @@ var showLoading=function(targetDiv)
 }
 
 var toggleDiv = function(target_div, delay) {
+
   if ($('##' + target_div).css('display') == 'none' ) {
     $('##' + target_div).show(delay);
     return true;
