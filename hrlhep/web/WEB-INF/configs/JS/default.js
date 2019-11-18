@@ -3,6 +3,9 @@ function getMonthName(month) {
     return ["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь", "Октябрь","Ноябрь","Декабрь"][parseInt(month)-1]
 }
 //    return ["January","February","March","April","May","June","July","August","September", "October","November","December"][parseInt(month)-1]
+function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(find, 'g'), replace);
+}
 function monthKvartal(month){
     month =+ month;
     switch (month) {
