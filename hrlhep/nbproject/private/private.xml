@@ -21,12 +21,6 @@
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
         </group>
-        <group name="HRLHEP">
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_iss.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/gateway/receive_8_fizlitso.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_personal_table.cfg</file>
-        </group>
+        <group name="HRLHEP"/>
     </open-files>
 </project-private>
