@@ -21,6 +21,17 @@
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
         </group>
-        <group name="HRLHEP"/>
+        <group name="HRLHEP">
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_iss.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_povysh.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_samples.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftediv.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/table_no.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/free/js_tabs.dat</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/update_oklad.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_rnd.cfg</file>
+        </group>
     </open-files>
 </project-private>

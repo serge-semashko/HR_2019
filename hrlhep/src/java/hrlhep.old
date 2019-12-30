@@ -4,7 +4,7 @@
 #########################################################
 # DON'T FORGET TO CHANGE THIS:
 #########################################################
-CfgRootPath=g:/home/jinr/hr_2019/hrlhep/web/WEB-INF/configs/
+#CfgRootPath=c:/Users/kouniaev/Documents/NetBeansProjects/hrlhep/web/WEB-INF/configs/
 #CfgRootPath=/home/serg-disk/NetBeansProjects/hrlhep/web/WEB-INF/configs/
 #########################################################
 
@@ -32,15 +32,22 @@ ConnectionPoolMaxSize=40
 
 dbDriver1C=com.microsoft.sqlserver.jdbc.SQLServerDriver
 connString1C=jdbc:sqlserver://159.93.146.130;databaseName=DB_1C_2
+dbDriver1C=com.microsoft.sqlserver.jdbc.SQLServerDriver
+connString1C=jdbc:sqlserver://159.93.146.130;databaseName=DB_1C_2
 usr1C=semashko
 pw1C=_velikaja60_
 keepAlive1C=true
 autocommit1C=true
 
-dbDriverORA=oracle.jdbc.driver.OracleDriver
-connStringORA=jdbc:oracle:thin:@lt-a14.jinr.ru:1521:XE
-usrORA=SEMASHKO
-pwORA=translate
+
+
+
+
+
+dbDriverAA=com.microsoft.sqlserver.jdbc.SQLServerDriver
+connStringAA=jdbc:sqlserver://159.93.146.130;databaseName=DB_1C_2
+usrAA=semashko
+pwAA=_velikaja60_
 
 
 QueryThreadClass=jinr.hrlhep.QueryThread
