@@ -31,7 +31,7 @@ public class BasicTuner {
      */
     // 
     ScriptEngineManager manager = new ScriptEngineManager();
-//    ScriptEngine engine_PY = manager.getEngineByName("python");
+    ScriptEngine engine_PY = manager.getEngineByName("python");
     ScriptEngine engine_JS = manager.getEngineByName("JavaScript");
     /**
      * Для использовании в javascript
@@ -165,6 +165,8 @@ public class BasicTuner {
         String[] source = null;
         String ifState = "";
         String fn = (fileName == null || fileName.trim().length() == 0) ? null : fileName.trim();
+        System.out.println("\n\r***** engine_PY: " + engine_PY); 
+
 
         /* read the source file, if specified */
         try {
