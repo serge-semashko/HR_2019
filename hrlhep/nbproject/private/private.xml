@@ -22,7 +22,15 @@
             <file>file:/D:/home/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
         </group>
         <group name="HRLHEP">
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_bonus_otdel_table.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_maps.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/grade/scale_header.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_gradescale.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_upgrade_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/src/java/hrlhep.properties</file>
         </group>
     </open-files>
 </project-private>
