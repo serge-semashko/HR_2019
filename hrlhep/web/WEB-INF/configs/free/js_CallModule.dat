@@ -33,7 +33,6 @@ var AjaxCall=function(target_div, query, force, containerId) {
       && target_div !== "toolbar_panel" ??
     ) ??
 
-    showLoading(target_div);  ??вывод индикатора "загрузка" - часто мешается
     
     if(containerId) {
         data = $("##"+containerId+" input, ##" +containerId+" textarea, ##"+containerId + " select" ).serializeArray();
@@ -46,6 +45,8 @@ var AjaxCall=function(target_div, query, force, containerId) {
     }
     data.push({name:"ajax", value:"Y"});
     console.log("AjaxCall data:" + JSON.stringify(data)); data2log(data);
+    showLoading(target_div);  
+coment         ??вывод индикатора "загрузка" - часто мешается
 
     var request = $.ajax({ url: "#ServletPath#", type: "POST", data:data, dataType: "html" });
         request.done(function( msg ) { if(target_div) $( "##" + target_div ).html( msg ); setStandardEvents(); });
@@ -71,7 +72,6 @@ var AjaxCall_new=function(target_div, query, force, containerId) {
       && target_div !== "toolbar_panel" ??
     ) ??
 
-    showLoading(target_div);  ??вывод индикатора "загрузка" - часто мешается
 
      data = $("##"+containerId[0]+" input, ##" +containerId[0]+" textarea, ##"+containerId[0] + " select" ).serializeArray();
      data1 = $("##"+containerId[1]+" input, ##" +containerId[1]+" textarea, ##"+containerId[1] + " select" ).serializeArray();
@@ -86,6 +86,10 @@ var AjaxCall_new=function(target_div, query, force, containerId) {
     data.push({name:"data", value:JSON.stringify(data1) });
     console.log("AjaxCall data:" + JSON.stringify(data));
     data2log(data);
+    showLoading(target_div);  
+coment  ??вывод индикатора "загрузка" - часто мешается
+
+
     var request = $.ajax({ url: "#ServletPath#", type: "POST", data:data, dataType: "html" });
         request.done(function( msg ) { if(target_div) $( "##" + target_div ).html( msg ); setStandardEvents(); });
         request.fail(function( jqXHR, textStatus ) { alert( "Ошибка: " + textStatus ); });
