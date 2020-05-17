@@ -20,9 +20,9 @@
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
         </group>
         <group>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/maps/maps_lhep.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_bonus_otdel_table.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_ftediv.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/grade/edit_grade_scale.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee_table.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee.cfg</file>
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_premii.cfg</file>
