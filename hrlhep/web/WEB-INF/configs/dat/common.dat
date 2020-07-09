@@ -25,7 +25,43 @@
  <script src="#jsPath#main.js"></script>
  <script src="#jsPath#data.js"></script>
  <script src="#jsPath#jquery.fixedheadertable.min.js"></script>
+    
+    <script src="#jsPath#leaflet/src/Leaflet.draw.js"></script>
+    <script src="#jsPath#leaflet/src/Leaflet.Draw.Event.js"></script>
+    <link rel="stylesheet" href="#jsPath#leaflet/src/leaflet.draw.css"/>
 
+    <script src="#jsPath#leaflet/src/Toolbar.js"></script>
+    <script src="#jsPath#leaflet/src/Tooltip.js"></script>
+    <script src="#jsPath#leaflet/src/ext/GeometryUtil.js"></script>
+    <script src="#jsPath#leaflet/src/ext/LatLngUtil.js"></script>
+    <script src="#jsPath#leaflet/src/ext/LineUtil.Intersect.js"></script>   
+    <script src="#jsPath#leaflet/src/ext/Polygon.Intersect.js"></script>
+    <script src="#jsPath#leaflet/src/ext/Polyline.Intersect.js"></script>
+    <script src="#jsPath#leaflet/src/ext/TouchEvents.js"></script>
+
+    <script src="#jsPath#leaflet/src/draw/DrawToolbar.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.Feature.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.SimpleShape.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.Polyline.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.Marker.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.Circle.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.CircleMarker.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.Polygon.js"></script>
+    <script src="#jsPath#leaflet/src/draw/handler/Draw.Rectangle.js"></script>
+
+
+    <script src="#jsPath#leaflet/src/edit/EditToolbar.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/EditToolbar.Edit.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/EditToolbar.Delete.js"></script>
+
+    <script src="#jsPath#leaflet/src/Control.Draw.js"></script>
+
+    <script src="#jsPath#leaflet/src/edit/handler/Edit.Poly.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/Edit.SimpleShape.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/Edit.Rectangle.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/Edit.Marker.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/Edit.CircleMarker.js"></script>
+    <script src="#jsPath#leaflet/src/edit/handler/Edit.Circle.js"></script>
  <script src="#jsPath#amcharts/amcharts.js"></script>
  <script src="#jsPath#amcharts/pie.js"></script>
  <script src="#jsPath#amcharts.js"></script> ??
