@@ -69,7 +69,7 @@
  <script src="#jsPath#amcharts/plugins/export/export.min.js"></script>
  <link rel="stylesheet" href="#jsPath#main.css" type="text/css" media="all" />
  <link rel="stylesheet" href="#jsPath#amcharts/plugins/export/export.css" type="text/css" media="all" />
-
+    <script src="http://openweathermap.org/js/leaflet-layer.js"></script>
  <meta http-equiv="Cache-Control" content="no-cache">
  <meta http-equiv="Pragma" content="no-cache">
 
