@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="6">
+        <file>
+            <url>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</url>
+            <bookmark id="3">
+                <name/>
+                <line>158</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/maps/maps_lhep.cfg</url>
+            <bookmark id="1">
+                <name/>
+                <line>230</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>web/WEB-INF/configs/maps/maps_lhep.cfg</url>
+            <bookmark id="6">
+                <name/>
+                <line>197</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>298</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="dms_original"/>
+        <group name="dms -SSS">
+            <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/tab_premii_table.cfg</file>
+            <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/JS/test.js</file>
+            <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/samples/js_sample.mod.cfg</file>
+            <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/grade/test.js</file>
+            <file>file:/G:/home/JINR/hr/hrlhep/web/WEB-INF/configs/grade/scale_header.cfg</file>
+        </group>
+        <group name="HRLHEP">
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/update_sotr.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/grade/tab_upgrade_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/maps/maps_lhep.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/edit/personal.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_jubilee.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_iss_table.cfg</file>
+            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
+        </group>
+        <group>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/maps/maps_lhep.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_otdel_table.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/update_doplaty_sotrDB.cfg</file>
+        </group>
+    </open-files>
+</project-private>

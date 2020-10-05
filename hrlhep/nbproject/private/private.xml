@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="6">
+        <file>
+            <url>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</url>
+            <bookmark id="3">
+                <name/>
+                <line>158</line>
+                <key/>
+            </bookmark>
+        </file>
         <file>
             <url>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/maps/maps_lhep.cfg</url>
             <bookmark id="1">
                 <name/>
                 <line>230</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>web/WEB-INF/configs/maps/maps_lhep.cfg</url>
+            <bookmark id="6">
+                <name/>
+                <line>197</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>298</line>
                 <key/>
             </bookmark>
         </file>
@@ -29,18 +50,17 @@
             <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
         </group>
         <group>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_fte_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_salary.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/maps/maps_lhep.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_bonus_otdel_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/maps/save_map_object.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_reports_chart.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_salary_table.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_premii.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_rnd.cfg</file>
-            <file>file:/G:/home/JINR/HR_2019/hrlhep/web/WEB-INF/configs/tab_personal_table.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_fond.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/main.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_all.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_fond_table.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/edit/fte_v1.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/JS/default.js</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v0.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/tab_bonus_otdel_table.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/utils.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/update_doplaty_sotrDB.cfg</file>
+            <file>file:/G:/home/JINR/hr_2019/hrlhep/web/WEB-INF/configs/edit/bonus_v1.cfg</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,1429 @@
+<HTML>
+<HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<style>
+td {vertical-align:top;}
+</style>
+</head><body>
+<table class="tlist tgreen" cellspacing=0 name="salary">
+<tr>
+<th class="srh" sr="sotr.tab_n">Таб.№</th>
+<th class="srh" sr="sotr.FIO">ФИО</th>
+<th  class="srh"  sr="sotr.TopParent_name">Отделение</th>
+<th  class="srh"  sr="sotr.subTopParent_name">Отдел/сектор</th>
+<th  class="srh"  sr="sotr.lvl3_div_name">сектор/группа</th>
+<th class="srh" sr="sotr.post">Должность</th>
+<th class="srh" sr="sotr.category">Категория</th>
+<th class="srh" sr="sotr.stavka" >Ставка</th>
+<th class="srh" sr="oklad.oklad">Оклад</th>
+<th >РВУ/ОРВУ<br>(%)</th>
+<th >Допл. за степень</th>
+<th >Надбавка за доп. объем работ</th>
+<th ">Прочие выплаты</th>
+<th class="srh" sr="oklad.sovmeshenie">Совмещение</th>
+<th>Итого</th>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=17914&FIO=Абраамян Хачик Унанович', true);" >
+<td>17914</td>
+<td>Абраамян Хачик Унанович</td>
+<td>Отделение №2</td>
+<td>НЭОФТИ</td>
+<td>Сектор №1 спектрометра СФЕРА</td>
+<td>ведущий научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>49700</td>
+<td>4970</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>64670</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=5406&FIO=Авдеев Сергей Петрович', true);" >
+<td>5406</td>
+<td>Авдеев Сергей Петрович</td>
+<td>Отделение №2</td>
+<td>НЭОФТИ</td>
+<td>Сектор №1 спектрометра СФЕРА</td>
+<td>ведущий научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>64840</td>
+<td>6484</td>
+<td>25000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>96324</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=102044&FIO=Авдейчиков Владимир Владимирович', true);" >
+<td>102044</td>
+<td>Авдейчиков Владимир Владимирович</td>
+<td>Отделение №5</td>
+<td>НМОКТС</td>
+<td>Сектор №1 прикладных радиационных технологий</td>
+<td>советник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >0.5</td>
+<td>35950</td>
+<td>0</td>
+<td>25000</td>
+<td>23400</td>
+<td>0</td>
+<td>0</td>
+<td>42175</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=20909&FIO=Аверичев Андрей Станиславович', true);" >
+<td>20909</td>
+<td>Аверичев Андрей Станиславович</td>
+<td>Отделение №1</td>
+<td>НИКО</td>
+<td>Группа №1 компрессорных установок</td>
+<td>ведущий инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>51090</td>
+<td>5109</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>56199</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=40650&FIO=Аверичев Георгий Станиславович', true);" >
+<td>40650</td>
+<td>Аверичев Георгий Станиславович</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  RHIC</td>
+<td>НЭОФТИ  RHIC</td>
+<td>заместитель начальника отдела</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>62990</td>
+<td>6299</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>79289</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=100720&FIO=Аверьянов Александр Владимирович', true);" >
+<td>100720</td>
+<td>Аверьянов Александр Владимирович</td>
+<td>Отделение №2</td>
+<td>СФСКЯ</td>
+<td>СФСКЯ</td>
+<td>научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>53200</td>
+<td>5320</td>
+<td>0</td>
+<td>5000</td>
+<td>0</td>
+<td>0</td>
+<td>63520</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=82772&FIO=Аверьянов Михаил Юрьевич', true);" >
+<td>82772</td>
+<td>Аверьянов Михаил Юрьевич</td>
+<td>Отделение №1</td>
+<td>НЭОИКН</td>
+<td>Сектор №1 кольца Нуклотрона</td>
+<td>слесарь-ремонтник</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>37080</td>
+<td>5562</td>
+<td>0</td>
+<td>4264</td>
+<td>0</td>
+<td>0</td>
+<td>46906</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=111580&FIO=Аверьянова Валентина Анатольевна', true);" >
+<td>111580</td>
+<td>Аверьянова Валентина Анатольевна</td>
+<td>ПФБ</td>
+<td>Группа №1</td>
+<td>Группа №1</td>
+<td>старший инженер</td>
+<td>Специалисты</td>
+<td >0.88</td>
+<td>46350</td>
+<td>0</td>
+<td>0</td>
+<td>2000</td>
+<td>0</td>
+<td>0</td>
+<td>42548</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=99087&FIO=Агакишиев Гейдар Нусрат Оглы', true);" >
+<td>99087</td>
+<td>Агакишиев Гейдар Нусрат Оглы</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  RHIC</td>
+<td>Сектор №1 исследований структуры ядер и частиц при экстремальных условиях</td>
+<td>ведущий научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>69890</td>
+<td>6989</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>86879</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=6101&FIO=Агапов Николай Николаевич', true);" >
+<td>6101</td>
+<td>Агапов Николай Николаевич</td>
+<td>Руководство</td>
+<td></td>
+<td>Руководство</td>
+<td>главный инженер лаборатории</td>
+<td>Руководители</td>
+<td >1</td>
+<td>126690</td>
+<td>12669</td>
+<td>25000</td>
+<td>30750</td>
+<td>0</td>
+<td>0</td>
+<td>195109</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=68055&FIO=Агапова Вера Владимировна', true);" >
+<td>68055</td>
+<td>Агапова Вера Владимировна</td>
+<td>Отделение №6</td>
+<td>КО</td>
+<td>Конструкторское бюро №1</td>
+<td>инженер-конструктор 1 категории</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>29870</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>29870</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=180847&FIO=Агаподченко Андрей Викторович', true);" >
+<td>180847</td>
+<td>Агаподченко Андрей Викторович</td>
+<td>Отделение №1</td>
+<td>НЭОСМТ</td>
+<td>Сектор №3 криогенных установок  и технологий</td>
+<td>техник</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>28230</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>28230</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=6351&FIO=Агафонова Тамара Николаевна', true);" >
+<td>6351</td>
+<td>Агафонова Тамара Николаевна</td>
+<td>Отделение №1</td>
+<td>НИОСЭН</td>
+<td>Сектор №1 источников питания</td>
+<td>электромонтер по ремонту и обслуживанию электрооборудования</td>
+<td>Рабочие</td>
+<td >0.5</td>
+<td>23080</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>11540</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=190727&FIO=Азорский Виталий Николаевич', true);" >
+<td>190727</td>
+<td>Азорский Виталий Николаевич</td>
+<td>Отделение №6</td>
+<td>ЦОЭП</td>
+<td>Группа №2 механика цеха</td>
+<td>техник</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>32760</td>
+<td>0</td>
+<td>0</td>
+<td>20000</td>
+<td>0</td>
+<td>0</td>
+<td>52760</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=114497&FIO=Азорский Николай Иванович', true);" >
+<td>114497</td>
+<td>Азорский Николай Иванович</td>
+<td>Отделение №6</td>
+<td></td>
+<td>Отделение №6</td>
+<td>ведущий инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>48720</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>48720</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=166184&FIO=Акберов Рамиль Аладдин оглы', true);" >
+<td>166184</td>
+<td>Акберов Рамиль Аладдин оглы</td>
+<td>Отделение №5</td>
+<td>НМОКТС</td>
+<td>Сектор №1 прикладных радиационных технологий</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>31830</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>31830</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=68700&FIO=Акимов Владислав Петрович', true);" >
+<td>68700</td>
+<td>Акимов Владислав Петрович</td>
+<td>Отделение №1</td>
+<td>НЭОИКН</td>
+<td>Сектор №2 инжекции ЛУ-20</td>
+<td>механик экспериментальных стендов и установок</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>36050</td>
+<td>5408</td>
+<td>0</td>
+<td>7048</td>
+<td>0</td>
+<td>0</td>
+<td>48506</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=145259&FIO=Акимов Максим Владимирович', true);" >
+<td>145259</td>
+<td>Акимов Максим Владимирович</td>
+<td>АХП</td>
+<td>Х.O.</td>
+<td>Группа №1 технического обслуживания территории</td>
+<td>подсобный рабочий</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>23490</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>23490</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=13884&FIO=Аксиненко Виктор Дмитриевич', true);" >
+<td>13884</td>
+<td>Аксиненко Виктор Дмитриевич</td>
+<td>Отделение №2</td>
+<td>СФСКЯ</td>
+<td>СФСКЯ</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>41510</td>
+<td>0</td>
+<td>10000</td>
+<td>6000</td>
+<td>0</td>
+<td>0</td>
+<td>57510</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=3084&FIO=Александров Владимир Семенович', true);" >
+<td>3084</td>
+<td>Александров Владимир Семенович</td>
+<td>Отделение №1</td>
+<td>НТОП</td>
+<td>Сектор №4 физики пучков и источников многозарядных ионов</td>
+<td>начальник сектора</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>62990</td>
+<td>0</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>72990</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=46111&FIO=Алексахин Вадим Юрьевич', true);" >
+<td>46111</td>
+<td>Алексахин Вадим Юрьевич</td>
+<td>Отделение №4</td>
+<td>НЭОФ на CMS</td>
+<td>Сектор №1 новой физики на CMS</td>
+<td>ведущий научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>54750</td>
+<td>0</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>64750</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=191780&FIO=Алексеев Петр Николаевич', true);" >
+<td>191780</td>
+<td>Алексеев Петр Николаевич</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №4 детекторов и анализа данных</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >0.5</td>
+<td>42230</td>
+<td>0</td>
+<td>0</td>
+<td>11000</td>
+<td>0</td>
+<td>0</td>
+<td>26615</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=194810&FIO=Алишина Ксения Александровна', true);" >
+<td>194810</td>
+<td>Алишина Ксения Александровна</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №4 детекторов и анализа данных</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>41200</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>41200</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=230577&FIO=Алфеев Александр Валерьевич', true);" >
+<td>230577</td>
+<td>Алфеев Александр Валерьевич</td>
+<td>Отделение №1</td>
+<td>ДСН</td>
+<td>ДСН</td>
+<td>начальник службы</td>
+<td>Руководители</td>
+<td >1</td>
+<td>55110</td>
+<td>5511</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>60621</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=184692&FIO=Аманбек Нурбакыт ', true);" >
+<td>184692</td>
+<td>Аманбек Нурбакыт </td>
+<td>Отделение №3</td>
+<td>НЭОФСТИ</td>
+<td>НЭОФСТИ</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >0.5</td>
+<td>26780</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>13390</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=66397&FIO=Андреев Василий Анатольевич', true);" >
+<td>66397</td>
+<td>Андреев Василий Анатольевич</td>
+<td>Отделение №1</td>
+<td>НТОП</td>
+<td>Сектор №1 динамики и вывода пучка</td>
+<td>ведущий инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>55320</td>
+<td>5532</td>
+<td>0</td>
+<td>5000</td>
+<td>0</td>
+<td>0</td>
+<td>65852</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=195183&FIO=Андреев Кирилл Андреевич', true);" >
+<td>195183</td>
+<td>Андреев Кирилл Андреевич</td>
+<td>Отделение №1</td>
+<td>НЭОСМТ</td>
+<td></td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>25750</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>25750</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=160859&FIO=Андреева Светлана Викторовна', true);" >
+<td>160859</td>
+<td>Андреева Светлана Викторовна</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>НЭОMД</td>
+<td>старший инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>46350</td>
+<td>0</td>
+<td>0</td>
+<td>16000</td>
+<td>0</td>
+<td>0</td>
+<td>62350</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=154976&FIO=Андреева Татьяна Владимировна', true);" >
+<td>154976</td>
+<td>Андреева Татьяна Владимировна</td>
+<td>Отделение №5</td>
+<td>НМОКТС</td>
+<td>Сектор №1 прикладных радиационных технологий</td>
+<td>старший техник</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>37600</td>
+<td>3760</td>
+<td>0</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>51360</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=7400&FIO=Аникина Мая Хаимовна', true);" >
+<td>7400</td>
+<td>Аникина Мая Хаимовна</td>
+<td>Отделение №2</td>
+<td>СФСКЯ</td>
+<td>СФСКЯ</td>
+<td>консультант</td>
+<td>Научные и научно-педагогические работники</td>
+<td >0.5</td>
+<td>22000</td>
+<td>0</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>16000</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=154221&FIO=Анисимов Сергей Юрьевич', true);" >
+<td>154221</td>
+<td>Анисимов Сергей Юрьевич</td>
+<td>Руководство</td>
+<td></td>
+<td>Руководство</td>
+<td>заместитель главного инженера лаборатории</td>
+<td>Руководители</td>
+<td >1</td>
+<td>95280</td>
+<td>9528</td>
+<td>0</td>
+<td>11000</td>
+<td>0</td>
+<td>0</td>
+<td>115808</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=6304&FIO=Анисимов Юрий Сергеевич', true);" >
+<td>6304</td>
+<td>Анисимов Юрий Сергеевич</td>
+<td>Руководство</td>
+<td></td>
+<td>Руководство</td>
+<td>помощник директора лаборатории по общим вопросам</td>
+<td>Руководители</td>
+<td >1</td>
+<td>114330</td>
+<td>11433</td>
+<td>0</td>
+<td>18000</td>
+<td>0</td>
+<td>0</td>
+<td>143763</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=31373&FIO=Анисимова Людмила Владиславовна', true);" >
+<td>31373</td>
+<td>Анисимова Людмила Владиславовна</td>
+<td>Отделение №6</td>
+<td>ЦОЭП</td>
+<td>Группа №1 подготовки производства</td>
+<td>кладовщик инструментальной кладовой</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>27810</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>27810</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=4672&FIO=Аносов Владимир Александрович', true);" >
+<td>4672</td>
+<td>Аносов Владимир Александрович</td>
+<td>Отделение №3</td>
+<td>НЭОССАиРП</td>
+<td>Сектор №2 спиновой структуры адронов</td>
+<td>ведущий инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>49810</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>49810</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=181269&FIO=Антонов Андрей Геннадьевич', true);" >
+<td>181269</td>
+<td>Антонов Андрей Геннадьевич</td>
+<td>Отделение №1</td>
+<td>НЭОСМТ</td>
+<td>Сектор №1 автоматизации и систем питания</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>27510</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>27510</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=186657&FIO=Антонов Антон Антонович', true);" >
+<td>186657</td>
+<td>Антонов Антон Антонович</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №2 идентификации элементарных частиц</td>
+<td>лаборант</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>36050</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>36050</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=103447&FIO=Анцупова Мария Алексеевна', true);" >
+<td>103447</td>
+<td>Анцупова Мария Алексеевна</td>
+<td>ПФБ</td>
+<td>Группа №1</td>
+<td>Группа №1</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>44290</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>44290</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=101993&FIO=Апарин Алексей Андреевич', true);" >
+<td>101993</td>
+<td>Апарин Алексей Андреевич</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  RHIC</td>
+<td>Сектор №1 исследований структуры ядер и частиц при экстремальных условиях</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>54080</td>
+<td>0</td>
+<td>10000</td>
+<td>7000</td>
+<td>0</td>
+<td>0</td>
+<td>71080</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=102762&FIO=Аракелян Сусанна Григорьевна', true);" >
+<td>102762</td>
+<td>Аракелян Сусанна Григорьевна</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  LHC</td>
+<td>Сектор №3 теоретической и методической поддержки проектов</td>
+<td>научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>23590</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>23590</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=112769&FIO=Арефьев Андрей Васильевич', true);" >
+<td>112769</td>
+<td>Арефьев Андрей Васильевич</td>
+<td>Отделение №1</td>
+<td>НИКО</td>
+<td>Группа №1 компрессорных установок</td>
+<td>машинист компрессорных установок</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>30180</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>30180</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=7403&FIO=Арефьев Валентин Александрович', true);" >
+<td>7403</td>
+<td>Арефьев Валентин Александрович</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  LHC</td>
+<td>НЭОФТИ  LHC</td>
+<td>заместитель начальника отдела</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>72520</td>
+<td>7252</td>
+<td>10000</td>
+<td>17000</td>
+<td>0</td>
+<td>0</td>
+<td>106772</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=122456&FIO=Арефьев Сергей Александрович', true);" >
+<td>122456</td>
+<td>Арефьев Сергей Александрович</td>
+<td>Отделение №1</td>
+<td>НИОСЭН</td>
+<td>Сектор №1 источников питания</td>
+<td>старший инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>47380</td>
+<td>4738</td>
+<td>0</td>
+<td>31000</td>
+<td>0</td>
+<td>0</td>
+<td>83118</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=281141&FIO=Артеменков Денис Александрович', true);" >
+<td>281141</td>
+<td>Артеменков Денис Александрович</td>
+<td>Отделение №2</td>
+<td>НЭОФТИ</td>
+<td>Сектор №4 обработки толстослойных эмульсий</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>46410</td>
+<td>0</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>56410</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=174284&FIO=Артюх Владимир Анатольевич', true);" >
+<td>174284</td>
+<td>Артюх Владимир Анатольевич</td>
+<td>Отделение №5</td>
+<td>СРС</td>
+<td>СРС</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>44350</td>
+<td>0</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>54350</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=121189&FIO=Архипова Ирина Евгеньевна', true);" >
+<td>121189</td>
+<td>Архипова Ирина Евгеньевна</td>
+<td>ПФБ</td>
+<td>Группа №1</td>
+<td>Группа №1</td>
+<td>заведующий складом</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>33480</td>
+<td>0</td>
+<td>0</td>
+<td>4000</td>
+<td>0</td>
+<td>0</td>
+<td>37480</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=82823&FIO=Астахов Валерий Иванович', true);" >
+<td>82823</td>
+<td>Астахов Валерий Иванович</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  LHC</td>
+<td>Сектор №2 физики адронов</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>36620</td>
+<td>3662</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>50282</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=194650&FIO=Атовуллаев Тимур ', true);" >
+<td>194650</td>
+<td>Атовуллаев Тимур </td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №4 детекторов и анализа данных</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>41200</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>41200</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=80955&FIO=Афанасьев Сергей Владимирович', true);" >
+<td>80955</td>
+<td>Афанасьев Сергей Владимирович</td>
+<td>Отделение №2</td>
+<td>НЭОФТИ</td>
+<td>Сектор №3 корреляционных исследований</td>
+<td>начальник сектора</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>78590</td>
+<td>7859</td>
+<td>10000</td>
+<td>6000</td>
+<td>0</td>
+<td>0</td>
+<td>102449</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=195498&FIO=Ахат Раимбек ', true);" >
+<td>195498</td>
+<td>Ахат Раимбек </td>
+<td>Отделение №3</td>
+<td>НЭОФСТИ</td>
+<td></td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>28840</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>28840</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=291162&FIO=Ахмадов Фаиг Низами Оглы', true);" >
+<td>291162</td>
+<td>Ахмадов Фаиг Низами Оглы</td>
+<td>Отделение №4</td>
+<td>Сф на АТЛАС</td>
+<td>Сф на АТЛАС</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>53200</td>
+<td>0</td>
+<td>10000</td>
+<td>1000</td>
+<td>0</td>
+<td>0</td>
+<td>64200</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=152486&FIO=Ахмадризялов Ринат Мубаракович', true);" >
+<td>152486</td>
+<td>Ахмадризялов Ринат Мубаракович</td>
+<td>Отделение №1</td>
+<td>НИОСЭН</td>
+<td>Сектор №1 источников питания</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>33070</td>
+<td>3307</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>36377</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=152739&FIO=Ахмедов Гадир Саттар Оглы', true);" >
+<td>152739</td>
+<td>Ахмедов Гадир Саттар Оглы</td>
+<td>Отделение №5</td>
+<td>НМОКТС</td>
+<td>Сектор №2 полупроводниковых детекторов</td>
+<td>младший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >0.5</td>
+<td>27920</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>13960</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=170850&FIO=Ахремова Светлана Николаевна', true);" >
+<td>170850</td>
+<td>Ахремова Светлана Николаевна</td>
+<td>ПФБ</td>
+<td>Группа №3</td>
+<td>Группа №3</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>39140</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>39140</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=111718&FIO=Ахунзянов Руслан Рустямович', true);" >
+<td>111718</td>
+<td>Ахунзянов Руслан Рустямович</td>
+<td>Отделение №3</td>
+<td>НЭОССАиРП</td>
+<td>Сектор №2 спиновой структуры адронов</td>
+<td>научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>50630</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>50630</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=164296&FIO=Бабаков Виктор Иванович', true);" >
+<td>164296</td>
+<td>Бабаков Виктор Иванович</td>
+<td>ИЭТО</td>
+<td>Группа №2</td>
+<td>Группа №2</td>
+<td>электромонтер по ремонту и обслуживанию электрооборудования</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>35850</td>
+<td>3585</td>
+<td>0</td>
+<td>4732</td>
+<td>0</td>
+<td>0</td>
+<td>44167</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=241692&FIO=Бабкин Вадим Андреевич', true);" >
+<td>241692</td>
+<td>Бабкин Вадим Андреевич</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №2 идентификации элементарных частиц</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>66900</td>
+<td>6690</td>
+<td>0</td>
+<td>34000</td>
+<td>0</td>
+<td>0</td>
+<td>107590</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=160724&FIO=Баева Айгуль Назировна', true);" >
+<td>160724</td>
+<td>Баева Айгуль Назировна</td>
+<td>Отделение №3</td>
+<td>НЭОССАиРП</td>
+<td>Сектор №1 редких процессов</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>44290</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>44290</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=111833&FIO=Бажажин Алексей Геннадьевич', true);" >
+<td>111833</td>
+<td>Бажажин Алексей Геннадьевич</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №1 трековых детекторов</td>
+<td>научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>46050</td>
+<td>4605</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>50655</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=153080&FIO=Бажора Любовь Борисовна', true);" >
+<td>153080</td>
+<td>Бажора Любовь Борисовна</td>
+<td>Отделение №4</td>
+<td>НЭОФ на CMS</td>
+<td>Сектор №2 торцевых детекторов на CMS</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >0.5</td>
+<td>45630</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>22815</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=7671&FIO=Базанов Александр Михайлович', true);" >
+<td>7671</td>
+<td>Базанов Александр Михайлович</td>
+<td>Отделение №1</td>
+<td>НЭОИКН</td>
+<td>Сектор №1 кольца Нуклотрона</td>
+<td>начальник группы</td>
+<td>Руководители</td>
+<td >1</td>
+<td>55620</td>
+<td>8343</td>
+<td>0</td>
+<td>22700</td>
+<td>0</td>
+<td>0</td>
+<td>86663</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=6064&FIO=Базылев Сергей Николаевич', true);" >
+<td>6064</td>
+<td>Базылев Сергей Николаевич</td>
+<td>Отделение №5</td>
+<td>НЭОАФИ</td>
+<td>Сектор №1 электроники сбора данных</td>
+<td>начальник сектора</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>93320</td>
+<td>9332</td>
+<td>0</td>
+<td>44500</td>
+<td>0</td>
+<td>0</td>
+<td>147152</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=163797&FIO=Байгарашев Досбол ', true);" >
+<td>163797</td>
+<td>Байгарашев Досбол </td>
+<td>Отделение №3</td>
+<td>НЭОССАиРП</td>
+<td>Сектор №1 редких процессов</td>
+<td>младший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>43470</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>43470</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=185356&FIO=Байгарашева Турсынай ', true);" >
+<td>185356</td>
+<td>Байгарашева Турсынай </td>
+<td>ПФБ</td>
+<td>Группа №3</td>
+<td>Группа №3</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>28840</td>
+<td>0</td>
+<td>0</td>
+<td>3000</td>
+<td>0</td>
+<td>0</td>
+<td>31840</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=6824&FIO=Баканова Мария Михайловна', true);" >
+<td>6824</td>
+<td>Баканова Мария Михайловна</td>
+<td>Отделение №6</td>
+<td>ЦОЭП</td>
+<td>Группа №1 подготовки производства</td>
+<td>инженер-технолог 3 категории</td>
+<td>Специалисты</td>
+<td >0.5</td>
+<td>37080</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>18540</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=3354&FIO=Балалыкин Николай Иванович', true);" >
+<td>3354</td>
+<td>Балалыкин Николай Иванович</td>
+<td>Отделение №1</td>
+<td>НЭОИКН</td>
+<td>Сектор №5 линейных ускорителей</td>
+<td>ведущий научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>49700</td>
+<td>4970</td>
+<td>10000</td>
+<td>5500</td>
+<td>0</td>
+<td>0</td>
+<td>70170</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=3371&FIO=Балалыкина Таисия Ивановна', true);" >
+<td>3371</td>
+<td>Балалыкина Таисия Ивановна</td>
+<td>Отделение №5</td>
+<td>НМОКТС</td>
+<td>Сектор №2 полупроводниковых детекторов</td>
+<td>старший инженер</td>
+<td>Специалисты</td>
+<td >0.5</td>
+<td>30800</td>
+<td>3080</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>16940</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=6885&FIO=Баландин Владимир Петрович', true);" >
+<td>6885</td>
+<td>Баландин Владимир Петрович</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №4 детекторов и анализа данных</td>
+<td>консультант</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>39610</td>
+<td>3961</td>
+<td>10000</td>
+<td>11000</td>
+<td>0</td>
+<td>0</td>
+<td>64571</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=171946&FIO=Балашов Игорь Алексеевич', true);" >
+<td>171946</td>
+<td>Балашов Игорь Алексеевич</td>
+<td>Отделение №3</td>
+<td>НЭОMД</td>
+<td>Сектор №1 трековых детекторов</td>
+<td>инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>48410</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>48410</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=48441&FIO=Балдин Антон Александрович', true);" >
+<td>48441</td>
+<td>Балдин Антон Александрович</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  LHC</td>
+<td>Сектор №3 теоретической и методической поддержки проектов</td>
+<td>начальник сектора</td>
+<td>Научные и научно-педагогические работники</td>
+<td >1</td>
+<td>66440</td>
+<td>6644</td>
+<td>25000</td>
+<td>10000</td>
+<td>0</td>
+<td>0</td>
+<td>108084</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=160220&FIO=Балдин Никита Антонович', true);" >
+<td>160220</td>
+<td>Балдин Никита Антонович</td>
+<td>Отделение №4</td>
+<td>НЭОФТИ  LHC</td>
+<td>НИКО</td>
+<td>ведущий инженер</td>
+<td>Специалисты</td>
+<td >1</td>
+<td>61800</td>
+<td>0</td>
+<td>0</td>
+<td>14000</td>
+<td>0</td>
+<td>0</td>
+<td>75800</td>
+</tr>
+<tr class="pt
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=154878&FIO=Балдина Элина Георгиевна', true);" >
+<td>154878</td>
+<td>Балдина Элина Георгиевна</td>
+<td>Отделение №2</td>
+<td>НЭОФТИ</td>
+<td>НЭОФТИ</td>
+<td>старший научный сотрудник</td>
+<td>Научные и научно-педагогические работники</td>
+<td >0.5</td>
+<td>61030</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>30515</td>
+</tr>
+<tr class="pt
+oddRow
+"
+onClick="ShowDialog(true); AjaxCall('popupCont', 'c=edit/salary&tab_n=140011&FIO=Балонкин Юрий Владимирович', true);" >
+<td>140011</td>
+<td>Балонкин Юрий Владимирович</td>
+<td>Отделение №1</td>
+<td>НЭОСМТ</td>
+<td>Сектор №2 сверхпроводящих обмоток</td>
+<td>механик экспериментальных стендов и установок</td>
+<td>Рабочие</td>
+<td >1</td>
+<td>31010</td>
+<td>3101</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>34111</td>
+</tr>

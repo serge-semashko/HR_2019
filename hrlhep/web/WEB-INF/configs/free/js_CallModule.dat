@@ -84,11 +84,9 @@ var AjaxCall_new=function(target_div, query, force, containerId) {
     }
     data.push({name:"ajax", value:"Y"});
     data.push({name:"data", value:JSON.stringify(data1) });
-    console.log("AjaxCall data:" + JSON.stringify(data));
+    console.log("AjaxCall_new all data:" + JSON.stringify(data));
     data2log(data);
     showLoading(target_div);  
-coment  ??вывод индикатора "загрузка" - часто мешается
-
 
     var request = $.ajax({ url: "#ServletPath#", type: "POST", data:data, dataType: "html" });
         request.done(function( msg ) { if(target_div) $( "##" + target_div ).html( msg ); setStandardEvents(); });
